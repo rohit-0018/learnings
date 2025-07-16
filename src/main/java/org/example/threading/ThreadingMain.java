@@ -6,8 +6,9 @@ public class ThreadingMain {
 //        ThreadingRunner runner = new BasicThreading();
 //        ThreadingRunner runner = new ModernPublisher();
 //        ThreadingRunner runner = new PingPong();
-        ThreadingRunner runner = new ToyBox();
+//        ThreadingRunner runner = new ToyBox();
 
+        ThreadingRunner runner = new SharedResourceMain();
         runner.maniExecutor();
     }
 }
