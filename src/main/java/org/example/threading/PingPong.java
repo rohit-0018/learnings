@@ -48,7 +48,7 @@ public class PingPong implements ThreadingRunner{
     }
 
     @Override
-    public void maniExecutor() {
+    public void mainExecutor() {
         Thread t1 = new Thread(()-> ping());
         Thread t2 = new Thread(this::pong);
         t1.start();

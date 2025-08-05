@@ -4,7 +4,7 @@ import org.example.threading.util.Resource;
 
 public class SharedResourceMain implements ThreadingRunner{
     @Override
-    public void maniExecutor() {
+    public void mainExecutor() {
         Resource resource = new Resource();
 
         Thread t1 = new Thread(()-> {

@@ -11,4 +11,9 @@ public class ProduceConsumerRunner implements Runner {
         producer.start();
         consumer.start();
     }
+
+    @Override
+    public void print() {
+
+    }
 }

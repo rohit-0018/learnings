@@ -70,7 +70,7 @@ public class ModernPublisher implements ThreadingRunner {
     }
 
     @Override
-    public void maniExecutor() {
+    public void mainExecutor() {
         start();
     }
 }

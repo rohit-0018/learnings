@@ -43,7 +43,7 @@ public class ToyBox implements ThreadingRunner{
     }
 
     @Override
-    public void maniExecutor() {
+    public void mainExecutor() {
 //        publishToy();
         Thread t1 = new Thread(this::publishToy);
         Thread t2 = new Thread(this::consumeToy);
